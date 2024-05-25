@@ -8,6 +8,7 @@ const app = express();
 // app.use(bodyParser.json());
 app.use(express.json());
 
+//  Enter your Own API Krys and Password before Running it
 const GEOCODING_API_KEY = "ENter_you_key";
 const WEATHER_API_KEY = "Enter-Your_key";
 const EMAIL_USER = "vickysaurabh545452@gmail.com";
