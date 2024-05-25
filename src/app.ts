@@ -8,10 +8,10 @@ const app = express();
 // app.use(bodyParser.json());
 app.use(express.json());
 
-const GEOCODING_API_KEY = "bihZtxdAHQ1eLo8B0IQK3w==6qh7N8IrARe0cPha";
-const WEATHER_API_KEY = "8efd6ddcd6mshf2651e915ced17ep1c9f31jsn3fcb18f439ac";
+const GEOCODING_API_KEY = "ENter_you_key";
+const WEATHER_API_KEY = "Enter-Your_key";
 const EMAIL_USER = "vickysaurabh545452@gmail.com";
-const EMAIL_PASS = "rlcvliiqjspxvlel";
+const EMAIL_PASS = "Enter_Your_pass";
 
 // Weather data saving API
 app.post("/api/SaveWeatherMapping", async (req: Request, res: Response) => {
